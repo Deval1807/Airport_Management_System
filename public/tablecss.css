@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, serif;
+    background-color: #4fb4fd;
+  }
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: grey;
+  }
+  th {
+    background-color: #005cbf;
+    color: white;
+  }
+  tr{
+    background-color: white;
+  }
+
+  .btn{
+    background-color: #05305e;
+    border-radius: 6px;
+    border-color: aliceblue;
+    padding: 7px 10px;
+    text-decoration-style: solid;
+    color: white;
+}
+.btn:hover {
+    background-color: blue; /* Green */
+    color: white;
+  }

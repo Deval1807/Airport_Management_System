@@ -1,0 +1,22 @@
+{
+  "name": "dbms",
+  "version": "1.0.0",
+  "description": "Aiport Management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.4",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "node-json2html": "^2.2.3",
+    "popups": "^1.1.3"
+  }
+}

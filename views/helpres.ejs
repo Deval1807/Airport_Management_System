@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tablecss.css">
+</head>
+<body>
+    <table><thead><tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+            <% for(var i=0; i < jsonres.length; i++) { %>
+                <tr>
+                  <td><%= jsonres[i].F_NAME %></td>
+                  <td><%= jsonres[i].L_NAME %></td>
+                  <td><%= jsonres[i].EMAIL %></td>
+                </tr>
+                <% } %>
+        </tbody>
+    </table>
+</body>
+</html>
