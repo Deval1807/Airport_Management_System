@@ -45,16 +45,17 @@ cd Airport_Management_System
         DB_USER=<>
         DB_PASSWORD=<>
         DB_DATABASE=<>
+        PORT=<>
         ```
 
 
 ### Starting the Project
 
 - Install the dependencies:
-        ```bash
-        npm install
-        ```
-- Make sure you have set up the `.env` files (see [Configuration](#configuration))
+    ```bash
+    npm install
+    ```
+- Make sure you have set up the `.env` file (see [Configuration](#configuration))
 - Starting the Services
     ```bash
     npm start

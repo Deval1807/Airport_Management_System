@@ -4,6 +4,7 @@ const mysql = require("mysql");
 const db = require("./connection");
 const userRout = require("./userRouter");
 const empRout = require("./empRouter");
+require('dotenv').config();
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -11,7 +12,7 @@ app.use(express.static("public"));
 app.use(userRout);
 app.use(empRout);
 
-const port = 3000;
+const port = process.env.PORT;
 
 app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
 app.get("/userLogin", (req, res) =>
